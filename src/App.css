@@ -1,38 +1,79 @@
 .App {
   text-align: center;
+  top: 30%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.Add {
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.Items {
+  border-bottom: 1.2px solid #4c4c4c64;
+  padding: 10px;
+  width: 55%;
+  margin: auto;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.Items-Right {
+  display: flex;
+  align-items: center;
+}
+.Items p {
+  margin: 0;
+  margin-right: 10px;
+  font-family: Bradley Hand, cursive;
 }
 
-.App-link {
-  color: #61dafb;
+.Clear {
+  margin-top: 4%;
+  margin-bottom: 1%;
+  margin-right: 1%;
+  background-color: #ffffff;
+  border: 1px solid #222222;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  font-family: Andale Mono, monospace;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.FontAwesome {
+  border: 0;
+  background-color: rgb(255, 234, 213);
+  font-size: large;
+  cursor: pointer;
+}
+.ToDoList {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.title {
+  font-family: Andale Mono, monospace;
+}
+.Footer {
+  font-family: Andale Mono, monospace;
+}
+
+.fontselect {
+  font-family: Andale Mono, monospace;
+}
+.width {
+  width: 35%;
+  margin-right: 4px;
+}
+.EditPopup {
+  margin-left: -10%;
+}
+.EditPopupFontAwesome {
+  margin-right: 4px;
+  border: 0;
+  background-color: rgb(255, 234, 213);
+  font-size: large;
+  cursor: pointer;
 }
